@@ -1,8 +1,8 @@
 name: DART
 on:
- pull_request:
-   branches:
-     - main
+  pull_request:
+    branches:
+      - main
 jobs:
   flutter_test:
     name: Run flutter test and analyze
